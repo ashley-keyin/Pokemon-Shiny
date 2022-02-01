@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Shiny Counter</title>
+  <link rel="stylesheet" href="pokemon.css">
+
+  <script type="text/javascript" src="pokemon.js"></script>
+  
+</head>
+
+<body>
+  
+  <header id="top_bar">
+    <img id="logo" src="images/pokeball.png">
+    <p id="site_name"> Shiny Tracker </p>
+  </header>
+
+  <div class="topnav">
+    <a class="active" href="hunting.html">Hunting</a>
+    <a href="completed.html">Completed</a>
+    <a href="statistics.html">Stats</a>
+  </div>
+  
+  <div id="main-container">
+
+    <div id="logo-area">
+
+      <div id="logo-left">
+        <a id="sprite_anchor"><img id="pokemon_sprite" alt="Pokemon"></a>
+    </div>
+
+    <div id="logo-right">
+      <div id="counter"></div>
+    </div>
+  </div>
+  
+    <div id="control-area">
+      <button class="buttons" type="button" id="btn_minus"> - </button>
+      <button class="buttons" type="button" id="btn_plus"> + </button>
+    </div>
+
+  <div id="complete">
+    <button type="button" id="btn_complete">Complete</button>
+    </div>
+
+  <div id="datatable">
+    <div id=tb1 class="databuttons">Date Started</div>
+    <div id=tb2 class="databuttons">??</div>
+    <div id=tb3 class="databuttons">Shiny Odds</div>
+    <div id=tb4 class="databuttons">1/8192</div>
+    <div id=tb5 class="databuttons">Binomial Distribution</div>
+    <div id=tb6 class="databuttons"></div>
+  </div>
+
+  </div>
+  </body>
+  </html>

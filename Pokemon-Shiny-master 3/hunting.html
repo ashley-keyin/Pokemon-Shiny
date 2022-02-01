@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Shiny Counter</title>
+
+  <link rel="stylesheet" href="pokemon.css">
+  <script type="module" src="hunting.js"></script>
+
+</head>
+
+<body>
+  
+  <div class="form-popup" id="myForm">
+    <form class="form-container">
+      <h1>Select Pokemon</h1>
+  
+      <select name="testname" id="pokemon_dropdown">
+      </select>
+
+      <button type="button" class="btn" id="confirm_button">Confirm</button>
+      <button type="button" class="btn cancel" id="btn-cancel">Cancel</button>
+    </form>
+  </div>
+
+  <header id="top_bar">
+    <img id="logo" src="images/pokeball.png">
+    <p id="site_name"> Shiny Tracker </p>
+  </header>
+
+  <div class="topnav">
+    <a class="active" href="hunting.html">Hunting</a>
+    <a href="completed.html">Completed</a>
+    <a href="statistics.html">Stats</a>
+  </div>
+  <div id="add_button_div">
+    <button type="button" id="add_pokemon">+</button> 
+  </div>
+  <div id="hunting_list">
+     
+  </div>
+</body>
+</html>
+  
